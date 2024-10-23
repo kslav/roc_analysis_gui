@@ -8,3 +8,4 @@
 <img src="assets/Figure1.png" width="500">
 
 ### Installation
+1. This codebase assumes you're running Python 3.10.0
