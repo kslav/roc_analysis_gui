@@ -31,7 +31,7 @@ def compute_roc():
     for sheet in sheets:
         print(f"Computing ROC for {sheet}")
         data = data_dict[sheet]
-        y_true = data['Actual (y&i)'].dropna()
+        y_true = data['Actual'].dropna()
         y_scores = data['Confidence'].dropna()
 
         fpr, tpr, thresholds = roc_curve(y_true, y_scores)
