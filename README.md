@@ -8,4 +8,4 @@
 <img src="assets/Figure1.png" width="500">
 
 ### Installation
-1. This codebase assumes you're running Python 3.10.0
+1. This codebase assumes you're running Python 3.10.0. For managing Python version with ease, you might consider installing and managing Python with pyenv as described in this [Medium article](https://medium.com/marvelous-mlops/the-rightway-to-install-python-on-a-mac-f3146d9d9a32). These instructions are from the perspective of using pyenv. 
